@@ -1,0 +1,47 @@
+{
+  "name": "webpack-sass",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "autoprefixer-core": "^6.0.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "cssnano": "^4.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.12.1",
+    "mini-css-extract-plugin": "^0.4.2",
+    "node-sass": "^4.8.3",
+    "npm": "^6.4.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss": "^7.0.2",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-simple-vars": "^5.0.1",
+    "postcss-svg-fragments": "^2.2.0",
+    "precss": "^3.1.2",
+    "px2rem-webpack-plugin": "^0.2.3",
+    "pxtorem-webpack-plugin": "^0.2.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-px-to-rem": "^0.1.1"
+  },
+  "dependencies": {
+    "postcss-clean": "^1.1.0"
+  },
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
